@@ -1,22 +1,23 @@
 {
-  "name": "Hayroo",
+  "name": "ecommerce-backend",
   "version": "1.0.0",
-  "description": "A E-commerce website.",
+  "description": "An E-commerce website backend built with Express and MongoDB.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce"
+    "url": "https://github.com/AbhinashRao/E-commerce"
   },
-  "author": "Hasan | https://hasan-py.github.io",
+  "author": "Abhinash Rao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce/issues"
+    "url": "https://github.com/AbhinashRao/E-commerce/issues"
   },
-  "homepage": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce#readme",
+  "homepage": "https://github.com/AbhinashRao/E-commerce#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "braintree": "^3.0.0",
